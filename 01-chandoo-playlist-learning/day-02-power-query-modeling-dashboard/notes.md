@@ -25,7 +25,7 @@ The raw data was not ready for analysis, so I cleaned it before loading:
 
 ## 2. My data tables
 
-![Data pane](data-pane.png)
+![Data pane](data-pane.jpg)
 
 | Table | Columns |
 |-------|---------|
@@ -47,7 +47,7 @@ Different tables need to be connected so that one chart can use data from many t
 
 ## 4. Dashboard: Awesome Chocolate Sales Performance Report
 
-![Dashboard](dashboard.png)
+![Dashboard](dashboard.jpg)
 
 **What is on the dashboard:**
 
