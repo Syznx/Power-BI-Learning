@@ -1,6 +1,6 @@
 # HR Analytics & Attendance Dashboard (Power BI)
 
-An end-to-end HR analytics dashboard built in **Power BI** using three months of attendance data (April, May, June 2022) from the fictional company **AtliQ Technologies**. The project was built as hands-on practice to understand how Power BI is used in real business settings, from raw data cleaning to a decision-ready dashboard.
+An end-to-end HR analytics dashboard built in **Power BI** using three months of attendance data (April, May, June 2022) from the fictional company **AtliQ Technologies**. The project was built as hands-on learning practice and then implemented independently.
 
 > Built while following the Codebasics Power BI project playlist, then implemented and tested on my own.
 
@@ -8,9 +8,7 @@ An end-to-end HR analytics dashboard built in **Power BI** using three months of
 
 ## Dashboard Preview
 
-![Dashboard](HR-project.jng)
-
-*(Add your final dashboard screenshot at `images/dashboard.png`)*
+![HR Analytics Dashboard Preview](./HR%20project.jpg)
 
 ---
 
@@ -41,7 +39,7 @@ AtliQ's HR team wanted clear answers to a few questions about attendance and abs
 
 - **Daily Attendance Volume**: area chart showing attendance behaviour across all 3 months, useful for spotting dips and patterns over time.
 - **WFH % and SL % by Day**: line chart comparing remote work and sick leave trends by date.
-- **Employee Daily Attendance & Status Grid**: matrix with employees as rows and days of the month (1, 2, 3 ...) as columns, color-coded by status (P, WFH, SL, etc.), along with per-employee Attendance % and WFH %.
+- **Employee Daily Attendance & Status Grid**: matrix with employees as rows and days of the month (1, 2, 3 ...) as columns, color-coded by status (P, WFH, SL, etc.), along with per-employee attendance summaries.
 
 ---
 
@@ -57,7 +55,7 @@ AtliQ's HR team wanted clear answers to a few questions about attendance and abs
 
 1. **Understand the requirement**: translated the HR team's questions into measurable KPIs.
 2. **Clean the data in Power Query**: cleaned one month's sheet fully and built the steps so they can be reused.
-3. **Reuse the cleaning logic**: the other monthly sheets had the same structure but were raw. Using the **Advanced Editor**, I reused the same query by just changing the data source instead of repeating every step.
+3. **Reuse the cleaning logic**: the other monthly sheets had the same structure but were raw. Using the **Advanced Editor**, I reused the same query by just changing the data source instead of repeating the cleaning steps.
 4. **Model the data and write DAX**: created calculated columns and measures for the five KPIs.
 5. **Build the visuals**: KPI cards, trend charts, and the attendance matrix.
 6. **Validate and refine**: checked the numbers against the questions the business asked.
