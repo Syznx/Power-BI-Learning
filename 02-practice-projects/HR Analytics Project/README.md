@@ -8,7 +8,7 @@ An end-to-end HR analytics dashboard built in **Power BI** using three months of
 
 ## Dashboard Preview
 
-![HR Analytics Dashboard Preview](./HR%20project.jpg)
+![HR Analytics Dashboard Preview](./HR%20project.png)
 
 ---
 
